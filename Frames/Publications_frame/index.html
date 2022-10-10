@@ -7,27 +7,65 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>PublicationsMain</title>
     <!-- css -->
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./Components/front_page/frontPage.css">
+    <link rel="stylesheet" href="./Components/header/header.css">
+    <link rel="stylesheet" href="./Components/main_container_rack/containerRack.css">
+
 </head>
 <body>
     <!-- -->
     <!-- HEADER -->
-    <header>
-        <nav>
+    <header class="main_header">
+        <!-- Banner -->
+        <div class="main_header__banner">
+            <h1>NoDo-L</h1>
+        </div>
 
+        <!-- Menu -->
+        <nav class="main_header__navBar">
+            <div class="navBar_elements">
+                <ul>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Results</a></li>
+                    <li><a href="#">Last News</a></li>
+                </ul>
+            </div>
         </nav>
+        <div class="navBar_menuBtn"><button class="navBar_menuBtn_toggle">Menu</button></div>
     </header>
 
     <!-- MAIN -->
     <main>
+        <!-- Lateral Nav -->
+        <nav class="left_nav">
 
+        </nav>
+
+        <section class="main_container">
+            <section class="news frontPage">
+                    <div class="frontPage_primary"></div>
+                    <div class="frontPage_secondary">
+                        <div class="frontPage_secondary__item"></div>
+                        <div class="frontPage_secondary__item"></div>
+                        <div class="frontPage_secondary__item"></div>
+                    </div>
+            </section>
+            <section class="results"></section>
+            <section class="lastNews"></section>
+        </section>
+
+        <!-- Aside Information -->
+        <aside class="right_nav">
+
+        </aside>
     </main>
 
-    <!-- FOOTER --> 
+    <!-- FOOTER -->
     <footer>
 
     </footer>
+
     <!-- Scripts -->
-    <script src="./index.js"></script>
+    <script src="./Components/header/header.js"></script>
 </body>
 </html>

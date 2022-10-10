@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.frontPage {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+}
+
+.frontPage_primary {
+    height: 500px;
+    background-color: rgba(102, 51, 153, 0.08);
+}
+
+.frontPage_secondary {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.frontPage_secondary__item {
+    height: 150px;
+    border: 1px solid black;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 800px){
+    .frontPage {
+        grid-template-columns: 1fr;
+    }
+
+    .frontPage_primary {
+        height: 360px;
+    }
+
+    .frontPage_secondary__item {
+        height: 110px;
+    }
+}

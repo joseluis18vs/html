@@ -1,18 +1,20 @@
 body{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
+    font-family: 'Inter', sans-serif;
+    font-size: 0.7rem;
 }
 
 header{
     margin: 0;
     padding: 0;
-    /* */
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .main_header {
     height: 5rem;
+    margin-bottom: 1rem;
 }
 
 .main_header__banner {
@@ -26,6 +28,7 @@ header{
     margin: 0;
     padding: 0;
     text-align: center;
+    font-family: 'Work Sans', sans-serif ;
 }
 
 .main_header__navBar{
@@ -58,10 +61,23 @@ header{
 
 .main_header__navBar div ul li a{
     color: white;
+    text-decoration: none;
 }
 
 .navBar_menuBtn_toggle{
+    height: 1rem;
     border: none;
     width: 100vw;
     cursor: pointer;
+    font-size: 0.7rem;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 576px){
+    .main_header {
+        height: 3rem;
+    }
+
+    .main_header__banner{
+        height: 2rem;
+    }
 }
