@@ -10,7 +10,7 @@
 }
 
 .frontPage_primary {
-    height: 500px;
+    height: 400px;
     background-color: rgba(102, 51, 153, 0.08);
 }
 
@@ -21,7 +21,7 @@
 }
 
 .frontPage_secondary__item {
-    height: 150px;
+    height: 120px;
     border: 1px solid black;
 }
 
