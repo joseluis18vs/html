@@ -17,11 +17,13 @@ body {
 }
 
 .left_nav {
-    background-color: rgba(248, 248, 248, 0.8);
+    border: 1px solid #ccc;
+    border-radius: 15px;
 }
 
 .right_nav{
-    background-color: rgba(246, 255, 233, 0.8);
+    border: 1px solid #ccc;
+    border-radius: 15px;
 }
 
 @media only screen and (min-width: 100px) and (max-width: 800px){

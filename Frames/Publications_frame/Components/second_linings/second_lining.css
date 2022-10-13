@@ -11,6 +11,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
 }
 
 .secondLining_item_1,
@@ -19,8 +20,10 @@ body {
 .secondLining_item_4,
 .secondLining_item_5
 {
-    border: 1px solid black;
-    font-size: 4rem;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    min-height: 100px;
+    max-height: 320px;
 }
 
 .secondLining_item_1{
