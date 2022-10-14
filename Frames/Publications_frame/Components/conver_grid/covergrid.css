@@ -16,30 +16,32 @@ body {
 .cover_grid_i2 {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
 .cover_grid_i1 > div {
     height: 300px;
     width: 45%;
-    border: 1px solid #ccc;
-    border-radius: 15px;
+    box-shadow:  0 4px 16px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
 }
 
 .cover_grid_i2 > div {
     height: 300px;
     width: 45%;
-    border: 1px solid #ccc;
-    border-radius: 15px;
+    box-shadow:  0 4px 16px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
 }
 
 @media only screen and (min-width: 100px) and (max-width: 800px){
     .cover_grid_i1 > div {
         width: 100%;
+        margin-bottom: 5px;
     }
 
     .cover_grid_i2 > div {
         width: 100%;
+        margin-bottom: 5px;
     }
 }
