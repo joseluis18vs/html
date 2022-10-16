@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(12, [col-start] minmax(20px, 1fr) [col-end]);
+    grid-template-rows: repeat(12, 1fr);
+    gap: 5px;
+    height: 100vh;
+}

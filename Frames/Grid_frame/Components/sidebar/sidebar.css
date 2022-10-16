@@ -1,0 +1,11 @@
+.sidebar {
+    border: 1px solid #ccc;
+    /*         f/c / f/c */
+    grid-area: 13/2 / 3/4;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 900px){
+    .sidebar {
+        display: none;
+    }
+}

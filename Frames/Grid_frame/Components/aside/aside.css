@@ -1,0 +1,11 @@
+aside {
+    border: 1px solid #ccc;
+    /*         f/c / f/c */
+    grid-area: 13/10 / 3/12;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 900px){
+    aside {
+        display: none;
+    }
+}
