@@ -1,0 +1,23 @@
+.bodyLayoutStack{
+    display: grid;
+    gap: 3px;
+    grid-template-rows: repeat(4, 1fr);
+    min-height: 300px;
+    margin-bottom: 5px;
+}
+
+.bodyLayoutStack_main{
+    background-color: gray;
+}
+
+.bodyLayoutStack_first{
+    background-color: rgba(128, 128, 128, 0.781);
+}
+
+.bodyLayoutStack_second{
+    background-color: rgba(128, 128, 128, 0.571);
+}
+
+.bodyLayoutStack_third{
+    background-color: rgba(128, 128, 128, 0.46);
+}
