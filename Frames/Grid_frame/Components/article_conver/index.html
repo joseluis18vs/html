@@ -15,10 +15,10 @@
     <!-- css -->
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./Components/main/main.css">
-    <link rel="stylesheet" href="./Components/cover_layout/cover.css">
+    <link rel="stylesheet" href="./Components/conver_layout/cover.css">
     <link rel="stylesheet" href="./Components/pillarStack_layout/pillarstack.css">
     <link rel="stylesheet" href="./Components/bannerandpillars_layout/bannerandpillars.css">
-    <link rel="stylesheet" href="./Components/fourpillars_layout/fourpillars.css">
+    <link rel="stylesheet" href="./Components/fourpillars/fourpillars.css">
     <link rel="stylesheet" href="./Components/mixed_layout/mixed.css">
     <link rel="stylesheet" href="./Components/combinedboxes_layout/combinedboxes.css">
     <link rel="stylesheet" href="./Components/mixedrev_layout/mixedrev.css">
@@ -26,16 +26,53 @@
     <link rel="stylesheet" href="./Components/header/header.css">
     <link rel="stylesheet" href="./Components/aside/aside.css">
     <link rel="stylesheet" href="./Components/sidebar/sidebar.css">
-    <link rel="stylesheet" href="./Components/article_conver/article.css">
-    <link rel="stylesheet" href="./Components/footer/footer.css">
-</head>
 
+    <link rel="stylesheet" href="./Components/article_conver/article.css">
+
+    <style>
+        
+        .author img{
+            max-width: 50px;
+            max-height: 50px;
+            border-radius: 50%;
+            border: 1px solid black;
+        }
+        
+    </style>
+</head>
 <body>
     <header></header>
     <main class="main_container">
         <main>
             <section class="coverLayout">
-                <div class="coverLayout_mainCoverNews"></div>
+                <div class="coverLayout_mainCoverNews">
+
+                    <article>
+
+                        <img 
+                        class="conver_img" 
+                        src="https://s2.sportstatics.com/relevo/www/multimedia/202210/16/media/cortadas/benzema_20221016234306-U15608388830qyu-750x1333@Relevo.jpg?cw=203&ch=360" 
+                        alt="">
+                        </img>
+
+                        <div class="cover_content">
+                            <div class="tag">REAL MADRID</div>
+                            <div class="title">
+                                EL MADRID REVIENTA AL BARÇA ANDANDO CON GOLAZOS DE BENZEMA FEDE Y RODRYGO.
+                            </div>
+                            <div class="abstract">
+                                Reacción, resumen y análisis desde el Santiago Bernabéu del Real Madrid 3-1 Barça. 
+                                <a href="#">Leer más...</a> 
+                            </div>
+                            <div class="author">
+                                <div class="author_img"></div>
+                                <div class="bg_gradient"></div>
+                                <p>Iñaki Angulo</p>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
                 <div class="coverLayout_firstCoverNews"></div>
                 <div class="coverLayout_secondCoverNews"></div>
                 <div class="coverLayout_thirdCoverNews"></div>
@@ -82,6 +119,7 @@
                 <div class="bodyLayoutStack_main"></div>
                 <div class="bodyLayoutStack_first"></div>
                 <div class="bodyLayoutStack_second"></div>
+                <div class="bodyLayoutStack_third"></div>
             </section>
 
             <section class="bodyLayoutMixedRev">
@@ -92,9 +130,16 @@
             </section>
 
         </main>
-        <section class="sidebar">SB</section>
-        <aside>AS</aside>
+
+        <aside>
+
+        </aside>
+
+        <section class="sidebar">
+            
+        </section>
+
     </main>
-    <footer></footer>
+        
 </body>
 </html>

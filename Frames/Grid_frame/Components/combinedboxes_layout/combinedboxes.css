@@ -1,43 +1,48 @@
 .bodyLayoutCombinedBoxes{
     display: grid;
-    gap: 3px;
+    gap: 15px;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(6, 1fr);
-    min-height: 300px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 .bodyLayoutCombinedBoxes_main{
     background-color: palevioletred;
     grid-area: 1/1 / 4/5;
+    min-height: 150px;
 }
 
 .bodyLayoutCombinedBoxes_first{
     background-color: rgba(216, 112, 147, 0.904);
     grid-area: 4/1 / 7/3;
+    min-height: 150px;
 }
 
 .bodyLayoutCombinedBoxes_second{
     background-color: rgba(216, 112, 147, 0.754);
     grid-area: 4/3 / 7/5;
+    min-height: 150px;
 }
 
 .bodyLayoutCombinedBoxes_third{
     background-color: rgba(216, 112, 147, 0.485);
     grid-area: 4/5 / 7/9;
+    min-height: 150px;
 }
 
 .bodyLayoutCombinedBoxes_fourth{
     background-color: rgba(216, 112, 147, 0.297);
     grid-area: 1/5 / 4/7;
+    min-height: 150px;
 }
 
 .bodyLayoutCombinedBoxes_fifth{
     background-color: rgba(216, 112, 147, 0.213);
     grid-area: 1/7 / 4/9;
+    min-height: 150px;
 }
 
-@media only screen and (min-width: 100px) and (max-width: 800px){
+@media only screen and (min-width: 320px) and (max-width: 767px){
 
     .bodyLayoutCombinedBoxes {
         grid-template-columns: 1fr;
@@ -46,25 +51,69 @@
 
     .bodyLayoutCombinedBoxes_main {
         grid-area:auto;
+        min-height: 300px;
     }
     
     .bodyLayoutCombinedBoxes_first {
         grid-area:auto;
+        min-height: 300px;
     }
 
     .bodyLayoutCombinedBoxes_second {
         grid-area:auto;
+        min-height: 300px;
     }
 
     .bodyLayoutCombinedBoxes_third {
         grid-area:auto;
+        min-height: 300px;
     }
 
     .bodyLayoutCombinedBoxes_fourth {
         grid-area:auto;
+        min-height: 300px;
     }
 
     .bodyLayoutCombinedBoxes_fifth {
         grid-area:auto;
+        min-height: 300px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 884px){
+
+    .bodyLayoutCombinedBoxes {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+    }
+
+    .bodyLayoutCombinedBoxes_main {
+        grid-area:auto;
+        min-height: 300px;
+    }
+    
+    .bodyLayoutCombinedBoxes_first {
+        grid-area:auto;
+        min-height: 300px;
+    }
+
+    .bodyLayoutCombinedBoxes_second {
+        grid-area:auto;
+        min-height: 300px;
+    }
+
+    .bodyLayoutCombinedBoxes_third {
+        grid-area:auto;
+        min-height: 300px;
+    }
+
+    .bodyLayoutCombinedBoxes_fourth {
+        grid-area:auto;
+        min-height: 300px;
+    }
+
+    .bodyLayoutCombinedBoxes_fifth {
+        grid-area:auto;
+        min-height: 300px;
     }
 }

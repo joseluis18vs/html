@@ -1,23 +1,55 @@
 .bodyLayoutStack{
     display: grid;
-    gap: 3px;
-    grid-template-rows: repeat(4, 1fr);
-    min-height: 300px;
-    margin-bottom: 5px;
+    gap: 15px;
+    grid-template-rows: repeat(3, 1fr);
+    margin-bottom: 15px;
 }
 
 .bodyLayoutStack_main{
     background-color: gray;
+    min-height: 200px;
 }
 
 .bodyLayoutStack_first{
     background-color: rgba(128, 128, 128, 0.781);
+    min-height: 200px;
 }
 
 .bodyLayoutStack_second{
     background-color: rgba(128, 128, 128, 0.571);
+    min-height: 200px;
 }
 
-.bodyLayoutStack_third{
-    background-color: rgba(128, 128, 128, 0.46);
+@media only screen and (min-width: 320px) and (max-width: 767px){
+    .bodyLayoutStack_main{
+        background-color: gray;
+        min-height: 300px;
+    }
+    
+    .bodyLayoutStack_first{
+        background-color: rgba(128, 128, 128, 0.781);
+        min-height: 300px;
+    }
+    
+    .bodyLayoutStack_second{
+        background-color: rgba(128, 128, 128, 0.571);
+        min-height: 300px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 884px){
+    .bodyLayoutStack_main{
+        background-color: gray;
+        min-height: 300px;
+    }
+    
+    .bodyLayoutStack_first{
+        background-color: rgba(128, 128, 128, 0.781);
+        min-height: 300px;
+    }
+    
+    .bodyLayoutStack_second{
+        background-color: rgba(128, 128, 128, 0.571);
+        min-height: 300px;
+    }
 }

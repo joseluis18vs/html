@@ -1,11 +1,11 @@
-header {
+footer {
     min-height: 150px;
     background-color: rgba(237, 237, 237, 0.337);
     margin-bottom: 10px;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 767px){
-    header {
+    footer {
         min-height: 100px;
         background-color: rgba(237, 237, 237, 0.337);
         margin-bottom: 10px;
@@ -13,7 +13,7 @@ header {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 884px){
-    header {
+    footer {
         min-height: 150px;
         background-color: rgba(237, 237, 237, 0.337);
         margin-bottom: 10px;
