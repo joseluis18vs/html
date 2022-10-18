@@ -10,13 +10,13 @@
 .coverLayout_mainCoverNews {
     background-color: lightgoldenrodyellow;
     grid-area: 1/1 / 7/4;
-    min-height: 300px;
+    max-height: 350px;
 }
 
 .coverLayout_firstCoverNews {
     background-color: rgb(253, 253, 169);
     grid-area: 1/4 / 3/7;
-    min-height: 100px;
+    max-height: 100px;
 }
 .coverLayout_secondCoverNews {
     background-color: rgb(255, 255, 187);
